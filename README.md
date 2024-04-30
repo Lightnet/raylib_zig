@@ -49,6 +49,17 @@ It would display window with the message.
 
 ## build.zig.zon:
 
+Go to https://github.com/raysan5/raylib for copy link. Where you select download zip.
+
+```
+https://github.com/raysan5/raylib/archive/refs/heads/master.zip
+```
+Replace the ext.
+```
+https://github.com/raysan5/raylib/archive/refs/heads/master.tar.gz
+```
+It can done the same with commits. Just replace with the ext for zig to use as dependencies. Note it required build.zig root to see as package.
+
 Add raylib dependencies
 ```zig
 .dependencies = .{
